@@ -1,113 +1,32 @@
-# Batch Scripting Exercises - ITS Steve Jobs Academy
+<p align="center">
+  <img src="https://i.imgur.com/oxaVJiK.png" alt="ITS Steve Jobs Academy Logo" width="180">
+</p>
 
-This repository contains a collection of Batch Scripting exercises developed during the course at the ITS Steve Jobs Academy. The exercises cover various aspects of batch programming, from basics to more advanced concepts.
+# ITS Steve Jobs Academy – Exercise Repository
 
-## Repository Structure
+This repository contains exercises, examples, or projects developed in the context of [ITS Steve Jobs Academy](https://www.stevejobs.academy/).
 
-The repository is organized into thematic folders:
+## About
 
-- **calculator/**: Calculation exercises
-  - Basic mathematical operations
-  - Simple calculations
+- The contents of this repository include practical tasks, code samples, or experiments on various topics.
+- Each repository may cover different technologies or subjects.
 
-- **loops/**: Loops and iterations
-  - For loops
-  - Infinite loops
-  - Controlled iterations
+## How to Use
 
-- **conditions/**: Conditional structures
-  - If-else constructs
-  - Conditional controls
-
-- **control/**: Flow control
-  - Execution management
-  - Process control
-
-- **echo/**: Output display
-  - Message printing
-  - Output formatting
-
-- **exit/**: Script termination
-  - Conditional exit
-  - Return codes
-
-- **file/**: File manipulation
-  - Reading and writing
-  - File operations
-
-- **params/**: Parameter management
-  - Argument passing
-  - Parameter processing
-
-- **pause/**: Execution pausing
-  - User input waiting
-  - Time control
-
-- **system/**: System commands
-  - Operating system interaction
-  - System commands
-
-- **variables/**: Variable usage
-  - Definition and manipulation
-  - Variable scope
-
-## How to Use the Exercises
-
-Each file contains a complete batch script that can be executed separately. To run an exercise, use the command:
-
-```batch
-path\to\file.bat
-```
-
-Or navigate to the exercise folder and type:
-
-```batch
-filename.bat
-```
-
-## Exercise Examples
-
-### Variable Manipulation
-
-```batch
-@echo off
-set var=Hello World
-echo %var%
-```
-
-### Conditional Operations
-
-```batch
-@echo off
-if "%1"=="" (
-    echo No parameter provided
-) else (
-    echo Parameter received: %1
-)
-```
-
-### Loops
-
-```batch
-@echo off
-for %%i in (1,2,3,4,5) do (
-    echo Number: %%i
-)
-```
-
-## Educational Objectives
-
-These exercises were designed to:
-- Understand the fundamental concepts of batch programming
-- Develop problem-solving skills
-- Apply common algorithms in practical contexts
-- Improve the ability to write clear and well-structured scripts
+1. **Clone the repository**:
+    ```bash
+    git clone <repository-link>
+    ```
+2. **Open the files** with your preferred editor or required software.
+3. **Follow any instructions** or comments provided in the files.
 
 ## Requirements
 
-- Windows operating system
-- Basic knowledge of batch syntax
+- A computer with the necessary software/tools for the specific materials in this repository.
+- (Optional) Refer to the documentation or code comments for any additional setup.
 
 ---
 
-*This repository was created as part of the educational journey at ITS Steve Jobs Academy.*
+<p align="center">
+  <b>ITS Steve Jobs Academy – Exercises and Projects</b>
+</p>
